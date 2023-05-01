@@ -143,16 +143,15 @@ async function startMiku() {
         clearState,
     } = await getAuthFromDatabase()
 
-    console.log(color(figlet.textSync('Atlas Bot MD', {
+    console.log(color(figlet.textSync('𝚀𝚄𝙴𝙴𝙽 𝙽𝙸𝙲𝙺𝚈 𝙼𝙳 𝙱𝙾𝚃 ', {
         font: 'Pagga',
         horizontalLayout: 'default',
         vertivalLayout: 'default',
         width: 80,
         whitespaceBreak: true
-    }), 'yellow'))
-
-    console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Atlas MD made by my Team Atlas.', 'aqua'))
-    console.log(color('\nYou can follow me on GitHub: FantoX001\n\n', 'aqua'))
+    }), 'black'))
+    console.log(color('ʜɪ ɪ ᴀᴍ Qᴜᴇᴇɴ ɴɪᴄᴋʏ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ', 'aqua'))
+    console.log(color('ᴄᴏᴅᴇᴅ ʙʏ ᴍʀ.ᴛɪᴍᴀ', 'aqua'))
 
 
 
@@ -166,7 +165,7 @@ async function startMiku() {
             level: 'silent'
         }),
         printQRInTerminal: true,
-        browser: ['Atlas MD', 'Safari', '1.0.0'],
+        browser: ['MR.TIMA', 'Safari', '1.0.0'],
         auth: state,
         version
     })
@@ -185,7 +184,7 @@ async function startMiku() {
         } = update
         status = connection;
         if (connection) {
-            await console.info(`Atlas MD Server Status => ${connection}`);
+            await console.info(`Qᴜᴇᴇɴ ɴɪᴄᴋʏ ʙᴏᴛ ꜱᴇʀᴠᴇʀ ꜱᴛᴀᴛᴇꜱ => ${connection}`);
           }
 
         if (connection === 'close') {
